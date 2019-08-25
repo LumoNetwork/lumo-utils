@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "AugustoResende",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LumoNetwork/lumo-utils"
+  },
   "license": "MIT",
   "dependencies": {
     "base-x": "^3.0.6",
