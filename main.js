@@ -65,7 +65,7 @@ function encodeMnemonic(input, lang = 'english'){
 }
 
 function decodeMnemonic(mnemonic){
-    if(!input) throw new Error('Mnemonic is required.');
+    if(!mnemonic) throw new Error('Mnemonic is required.');
     return decodeHex(bip.mnemonicToEntropy(mnemonic));
 }
 
@@ -85,7 +85,7 @@ function decodeString(input){
                 try{
                     buffer = decodeMnemonic(input);
                 } catch{
-                    buffer = null;
+                    buffer = '';
                 }
             }
         }
