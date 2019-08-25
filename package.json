@@ -1,0 +1,17 @@
+{
+  "name": "lumo-utils",
+  "version": "0.1.0",
+  "description": "Util functions for Lumo project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AugustoResende",
+  "license": "MIT",
+  "dependencies": {
+    "base-x": "^3.0.6",
+    "bip39": "^3.0.2",
+    "esm": "^3.2.25",
+    "tweetnacl-util": "^0.15.0"
+  }
+}
